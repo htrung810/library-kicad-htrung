@@ -1,0 +1,141 @@
+(footprint "HB9500-2P"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "28e622cb-662b-4d03-8928-f512bbf70b6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HB9500-2P"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d5621402-f391-4f03-bb1e-27cbeeddc8b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6565c9a5-976b-451f-ac28-db44dc71b228")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77cde327-342e-4784-9dee-6d0bdf3ce507")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -10.25995 13.17076)
+		(end -10.25995 -4.8292)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d37be504-16a1-4400-8506-d4c08f4c2efb")
+	)
+	(fp_line
+		(start -10.24979 13.17076)
+		(end 10.25004 13.17076)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b82dcd45-ff7f-4979-a3e8-1ae17be1fc4d")
+	)
+	(fp_line
+		(start -10.23963 -4.8292)
+		(end 10.2602 -4.8292)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12b2eb2f-809c-4635-9cbc-3ef45e66a86e")
+	)
+	(fp_line
+		(start 10.2602 13.17076)
+		(end 10.2602 -4.8292)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8197a3f-548d-4c84-9fdf-9fea2780a021")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "68b56227-3ba2-4625-9e22-6a73687b126b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 4.75013 -0.47996 180)
+		(size 3.19999 2.2)
+		(drill oval 2.20015 1.1999
+			(offset -0.00005 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a0b77f6e-c65c-404c-a7ef-8e4229595468")
+	)
+	(pad "2" thru_hole oval
+		(at -4.75001 -0.47996 180)
+		(size 3.19999 2.2)
+		(drill oval 2.19989 1.1999
+			(offset -0.00008 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6a2bc7a-968f-4f48-a5a6-efd6e90389e8")
+	)
+	(embedded_fonts no)
+	(model "E:/Trung/Lib/3D/TerminalBlock_HB9500/HB9500_01x02_P9.50mm.step"
+		(offset
+			(xyz -4.8 -4.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

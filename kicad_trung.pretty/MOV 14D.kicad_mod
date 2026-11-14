@@ -1,0 +1,179 @@
+(footprint "MOV 14D"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2d0c42cf-e999-45a9-b20f-f73fbe299683")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MOV 14D"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a7600363-d874-49d5-9bd3-986054d02e6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ff9f53a-7453-4a9f-a6ca-eb888f8b420a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "683d1cb7-685b-4f7b-b823-a93d5f9a7f5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -8.25 -2.7)
+		(end 8.25 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb848e04-6109-4f37-8170-3ed99c3d2227")
+	)
+	(fp_line
+		(start -8.25 2.7)
+		(end -8.25 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aad9c95e-7c39-4468-b8bb-4ea43f95699f")
+	)
+	(fp_line
+		(start 8.25 -2.7)
+		(end 8.25 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a21946f9-d3bc-4cc4-92c5-35d5c38fdb14")
+	)
+	(fp_line
+		(start 8.25 2.7)
+		(end -8.25 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d770a3f-4ec3-4a12-80cc-86fb9444d9a0")
+	)
+	(fp_line
+		(start -8.25 -2.7)
+		(end 8.25 -2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90622f3e-c438-4917-bf3c-eb9c0db8cb19")
+	)
+	(fp_line
+		(start -8.25 2.7)
+		(end -8.25 -2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21c296eb-ff55-4f6b-bd8f-712a8d1cbc6e")
+	)
+	(fp_line
+		(start 8.25 -2.7)
+		(end 8.25 2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "304ba372-feaa-4a79-a554-e1abe0463cea")
+	)
+	(fp_line
+		(start 8.25 2.7)
+		(end -8.25 2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91ea9fa1-c65f-400b-8b79-4e77232dd0c3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "69ad5224-1d89-4f72-9d3d-1d0e7d69a759")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -3.75 -1)
+		(size 3.3 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "58ec8318-e9e2-4d84-be55-3541a756f0aa")
+	)
+	(pad "2" thru_hole oval
+		(at 3.75 1)
+		(size 3.3 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "62810c71-9e08-4002-87a8-2cdc8c58bdf3")
+	)
+	(embedded_fonts no)
+	(model "E:/Trung/Lib/3D/MOV-14D471K.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

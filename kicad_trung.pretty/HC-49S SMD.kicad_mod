@@ -1,0 +1,153 @@
+(footprint "HC-49S SMD"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "24aab247-025c-4403-9087-5d2dc5ef47dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HC-49S SMD"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bf7e186f-4c44-4c72-9437-033426a91508")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62e8459a-17ac-4d9d-979a-e25358e1ef0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c37c383-d4f5-4058-8200-b3c4ae639ed9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.85 -2.5)
+		(end 5.85 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f1c611d-cbce-4710-9f0b-bf4c2731665a")
+	)
+	(fp_line
+		(start -5.85 -1.315)
+		(end -5.85 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e01963f0-1915-46f0-8569-c4b3f75bb9f6")
+	)
+	(fp_line
+		(start -5.85 2.5)
+		(end -5.85 1.315)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b9b20a3-cfd4-4f4b-9764-5f4e51a29a4e")
+	)
+	(fp_line
+		(start -5.85 2.5)
+		(end 5.85 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06c47db5-8491-4a64-8911-242253bed11f")
+	)
+	(fp_line
+		(start 5.85 -1.315)
+		(end 5.85 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca46f52c-74f7-4ec5-b996-3f2f53fbfd90")
+	)
+	(fp_line
+		(start 5.85 2.5)
+		(end 5.85 1.315)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb722a36-fbf1-4109-824a-6abb2dbceb7c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "beebd106-1d13-42b0-ad12-3d4544957420")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.75 0)
+		(size 5.5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3f283e50-421e-48a1-a0c3-5f036a9ad94d")
+	)
+	(pad "2" smd rect
+		(at 4.75 0)
+		(size 5.5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aae51ee5-74c0-4224-af8a-700164462f98")
+	)
+	(embedded_fonts no)
+	(model "E:/Trung/Lib/3D/HC-49-SMD.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

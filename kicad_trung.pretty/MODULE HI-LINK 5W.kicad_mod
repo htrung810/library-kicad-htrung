@@ -1,0 +1,166 @@
+(footprint "MODULE HI-LINK 5W"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.5 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0a96fc4b-02c1-4844-8be5-4ccda7cd2793")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Hi-Link 5W"
+		(at -0.5 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5efc4b4a-a72b-4761-8efa-e8f998ed9035")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60d0f4d5-d2a0-40aa-92bb-bec31c0fe146")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ad14715-36f7-4b60-9296-b5c0f6a10b58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -19 -11.5)
+		(end 19 -11.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc898db7-e616-44ee-8bfd-aea1c7fe3bb0")
+	)
+	(fp_line
+		(start -19 11.5)
+		(end -19 -11.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da7e0fd7-1441-486e-bbf3-901ad93877e7")
+	)
+	(fp_line
+		(start -19 11.5)
+		(end 19 11.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "211fc059-fe9a-426d-8f0f-6cbe143d66a9")
+	)
+	(fp_line
+		(start 19 11.5)
+		(end 19 -11.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91ba945b-0b3d-4d12-abbd-6b7545de9823")
+	)
+	(fp_circle
+		(center -19.8 -3.2)
+		(end -19.8 -3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "06b5e02a-7f0d-4646-9384-5c9a24f2bccb")
+	)
+	(pad "1" thru_hole rect
+		(at -16.8 -3)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ea2cd7a-682c-48cb-a96a-da1fe0686a4f")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1.5 1.5)
+			)
+			(layer "B.Cu"
+				(shape rect)
+				(size 1.5 1.5)
+			)
+		)
+	)
+	(pad "2" thru_hole circle
+		(at -16.8 3)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "8a70f5e5-9384-44a9-9fb6-5bcad258fa96")
+	)
+	(pad "3" thru_hole circle
+		(at 16.8 -9)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b7b576a0-d901-4964-a25c-00022b501a69")
+	)
+	(pad "4" thru_hole circle
+		(at 16.8 9)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "f99b980f-bdeb-4e5e-8df5-ad4581210b50")
+	)
+	(embedded_fonts no)
+	(model "E:/Trung/Lib/3D/HLK-5M05--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 -4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
