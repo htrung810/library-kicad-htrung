@@ -1,0 +1,241 @@
+(footprint "JP 2.54 2P"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4038c668-2146-434d-b49b-33daef24e337")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "JP 2.54 2P"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f5eb280b-0a4a-4bef-b3cc-d6441476fae4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98bd173c-b73c-4022-9409-74de4b31dc82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdada892-2c6c-4d09-82b8-48c496f78a71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.52 1.27)
+		(end -2.52 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b5ece1e-2203-4e33-bb85-3bdd57f9e2d4")
+	)
+	(fp_line
+		(start 2.56 -1.27)
+		(end -2.52 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0180c15-8b0c-4468-b602-60c13bcf107f")
+	)
+	(fp_line
+		(start 2.56 -1.27)
+		(end 2.56 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f725b78-ccf7-4c95-ab40-a5a5f7728d62")
+	)
+	(fp_line
+		(start 2.56 1.27)
+		(end -2.52 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "854b12d0-a4fb-48a3-b90e-2da831bdc7e8")
+	)
+	(fp_circle
+		(center 3.21 0)
+		(end 3.31 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9dbeca85-32df-4730-a91e-48607b371c88")
+	)
+	(fp_line
+		(start -2.77 -1.52)
+		(end 2.81 -1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b65f09bc-feb4-4d28-9296-39951d9f86cb")
+	)
+	(fp_line
+		(start -2.77 1.52)
+		(end -2.77 -1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "56864379-8cc6-4081-9ba2-1b51d46b2d96")
+	)
+	(fp_line
+		(start 2.81 -1.52)
+		(end 2.81 1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e3ec29d-843d-4441-82d2-a25c17d3448d")
+	)
+	(fp_line
+		(start 2.81 1.52)
+		(end -2.77 1.52)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79022dc2-0755-405f-b5c0-25d3f6c2dd34")
+	)
+	(fp_line
+		(start -2.52 -1.27)
+		(end 2.56 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b006bb8-4e6e-40ab-91d4-ba8c1a2870cb")
+	)
+	(fp_line
+		(start -2.52 1.27)
+		(end -2.52 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33b811d4-6f47-4889-85e0-0a19b8ee6ca3")
+	)
+	(fp_line
+		(start 2.56 -1.27)
+		(end 2.56 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36f5c6a6-91de-4684-84a7-71ab4c1174fc")
+	)
+	(fp_line
+		(start 2.56 1.27)
+		(end -2.52 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "431dd8eb-0e0e-49a2-b064-5677e78fce52")
+	)
+	(fp_circle
+		(center 3.21 0)
+		(end 3.31 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b0d38b7f-4ee5-41a9-8ef5-a5768642897e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "33ba1b86-acdf-4523-b465-495d9d83c456")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "01" thru_hole rect
+		(at 1.29 0)
+		(size 1.53 1.53)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6351e451-1cfd-4c0e-b137-167f82cb0d63")
+	)
+	(pad "02" thru_hole circle
+		(at -1.25 0)
+		(size 1.53 1.53)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "05b1f4af-7528-4122-8060-28d9acd452d6")
+	)
+	(embedded_fonts no)
+	(model "E:/Trung/Lib/3D/JP 2.54/jp 2p.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
